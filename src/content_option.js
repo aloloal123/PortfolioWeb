@@ -86,7 +86,7 @@ const dataportfolio = [{
     },
     {
         img: a3Image,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "เข้าการแข่งขันสิ่งประดิษฐ์คนรุ่นใหม่ ผลงาน เครื่องแจกบัตรอัตโนมัติ",
         
     },
     {
@@ -96,23 +96,23 @@ const dataportfolio = [{
     },
     {
         img: a5Image,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "เคยเข้ารวมแข่งทักษะการเขียนโปรแกรมควบคุมอุปกรณ์ IOT ระดับภาค",
     
     },
     {
         img: a6Image,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "เข้าการแข่งขันสิ่งประดิษฐ์คนรุ่นใหม่ ผลงาน ชุดไล่อากาศในหัวพิมพ์",
         
     },
 
     {
         img: a7Image,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "เข้าการแข่งขันสิ่งประดิษฐ์คนรุ่นใหม่ ผลงาน กังหันชาร์จไฟแรงลมต่ำ",
         
     },
     {
         img: a8Image,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "",
         downloadUrl: "/Files/Transcript.pdf"
     },
 ];

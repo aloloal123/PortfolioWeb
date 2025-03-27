@@ -7,11 +7,11 @@ import { dataportfolio, meta } from "../../content_option";
 export const Portfolio = () => {
     const [showModal, setShowModal] = useState(false);
     const [selectedImage, setSelectedImage] = useState("");
-    const [downloadUrl, setDownloadUrl] = useState(null); // ✅ เก็บ URL ดาวน์โหลด
+    const [downloadUrl, setDownloadUrl] = useState(null);
 
     const handleShow = (img, url) => {
         setSelectedImage(img);
-        setDownloadUrl(url || null); // ถ้าไม่มี downloadUrl ให้เป็น null
+        setDownloadUrl(url || null); 
         setShowModal(true);
     };
 
@@ -36,7 +36,7 @@ export const Portfolio = () => {
                             <div className="content">
                                 <p>{data.description}</p>
                                 <Button variant="primary" onClick={() => handleShow(data.img, data.downloadUrl)}>
-                                    View Project
+                                    View
                                 </Button>
                             </div>
                         </div>
